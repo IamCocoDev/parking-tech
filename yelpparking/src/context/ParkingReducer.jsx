@@ -1,6 +1,6 @@
 import {GET_PARKINGS} from './types.js'
 
-export default (state, action) => {
+const fn = (state, action) => {
   const {payload,type} = action;
 
   switch(type){
@@ -13,3 +13,4 @@ export default (state, action) => {
       return state;
   }
 }
+export default fn
