@@ -1,0 +1,8 @@
+.parkingCards{ 
+  max-width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}

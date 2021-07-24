@@ -1,0 +1,51 @@
+.parkingCardBox{
+  width: 40vw;
+  margin: 1vw;
+  display: grid;
+  grid-template-columns: 5% 45% 45% 5%;
+  grid-template-rows: 4rem 9rem 5.5rem 1rem;
+  background-color: burlywood;
+  border-radius: 1rem;
+}
+
+.parkingCardName{
+  grid-column: 2/4;
+  grid-row: 1/2;
+  font-size: 1.4rem;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.parkingCardImage{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 8rem;
+  width: auto;
+  justify-self: flex-start;
+  align-self: center;
+  border-radius: 1rem;
+}
+
+.parkingCardData{
+  grid-column: 3/4;
+  grid-row: 2/3;
+  height: 5rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.parkingCardAdress{
+  grid-column: 2/4;
+  grid-row: 3/4;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.parkingCardStars{
+  grid-column: 2/4;
+  grid-row: 3/4;
+  justify-self: flex-start;
+  align-self: flex-end;
+}
