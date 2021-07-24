@@ -16,7 +16,7 @@ export default function ParkingState(props) {
 
     const getParkings  = async (location) => {
       console.log(location)
-      const res = await axios.get(`http://localhost:3001/parkings?location=${location}&status=open`)
+      const res = await axios.get(`https://parking-tech.herokuapp.com/parkings?location=${location}&status=open`)
       dispatch({
         type: 'GET_PARKINGS',
         payload: res.data
